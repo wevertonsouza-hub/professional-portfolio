@@ -18,10 +18,71 @@ header{
 section{
     display: flex;
     align-items:center ;
+    
 }
 
 nav{
-display: flex;
+display:flex;
 gap: 93px;;
+padding-left: 140px;
 
 }
+
+ #WelcomeMessage h3{
+    /* Olá pessoas, */
+
+position: absolute;
+width: 138px;
+height: 28px;
+left: 251px;
+top: 330px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #445964;
+
+ }
+
+ #WelcomeMessage h1{
+    /* EU SOU UM PROGRAMADOR */
+
+position: absolute;
+width: 545px;
+height: 168px;
+left: 251px;
+top: 366px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 56px;
+line-height: 84px;
+
+color: #445964;
+
+
+ }
+
+ #WelcomeMessage h2{
+    /* Seja bem-vindo ao meu portifólio website */
+
+position: absolute;
+width: 446px;
+height: 28px;
+left: 251px;
+top: 542px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #445964;
+
+
+ }
