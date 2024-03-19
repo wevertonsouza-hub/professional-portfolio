@@ -1,4 +1,5 @@
 * {
+background-color: #fbfbfb;
 padding: 0;
 margin: 0;
 text-decoration: none;
@@ -10,79 +11,67 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 header{
     width: 100%;
-    height: 1080px;
-    background-color: #fbfbfb;
-}
-
-
-section{
     display: flex;
+    justify-content: center;
     align-items:center ;
-    
 }
+
+
 
 nav{
 display:flex;
 gap: 93px;;
-padding-left: 140px;
+padding-left: 207px;
 
 }
 
- #WelcomeMessage h3{
-    /* Olá pessoas, */
+header > h1 {
+    margin-left: 19px;
+    color: #445964;
+}
 
-position: absolute;
-width: 138px;
-height: 28px;
-left: 251px;
-top: 330px;
+nav > a {
+    font-size: 16px;
+    color: #445964;
+}
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
+section {
+    width: 100%;
+    display: flex;
+    margin-top: 140px;
+    gap: 167px;
+}
 
-color: #445964;
+aside > h2 {
+    color: #445964;
+    font-size: 24px;
+    width: 545px;
+    
+}
 
- }
+h2 > span {
+    font-size: 72px;
+    font-weight: 900;
+}
 
- #WelcomeMessage h1{
-    /* EU SOU UM PROGRAMADOR */
+button{
+    width: 310px;
+    height: 65px;
+    background-color: #263138;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 22px;
+    margin-top: 130px;
+    margin-bottom: 170px;
+    
+}
 
-position: absolute;
-width: 545px;
-height: 168px;
-left: 251px;
-top: 366px;
+aside:last-child{
+    display: flex;
+    gap: 26px;
+}
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 56px;
-line-height: 84px;
-
-color: #445964;
-
-
- }
-
- #WelcomeMessage h2{
-    /* Seja bem-vindo ao meu portifólio website */
-
-position: absolute;
-width: 446px;
-height: 28px;
-left: 251px;
-top: 542px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-
-color: #445964;
-
-
- }
+.social-media :nth-child(n) {
+    width: 40px;
+    height: 40px;
+}
